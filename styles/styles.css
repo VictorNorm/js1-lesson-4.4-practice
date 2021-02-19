@@ -1,0 +1,48 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.form label {
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+input {
+    padding: 10px 0px;
+}
+
+button {
+    width: 250px;
+    margin: 30px auto;
+    padding: 15px 30px;
+    background-color: rgb(64, 140, 240);
+    font-size: 20px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: medium;
+}
+
+.submissionSuccessful {
+    width: 250px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    background-color: green;
+    color: white;
+    display: none;
+}
